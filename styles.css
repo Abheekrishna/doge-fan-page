@@ -1,0 +1,214 @@
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    height: 80px;
+    background-color: rgb(31, 41, 55);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.links {
+    margin-right: 80px;
+    display: flex;
+}
+.link-page {
+    color: white;
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.link-page:hover {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Hero Section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 100px 200px;
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.underline {
+    text-decoration: underline;
+}
+.description {
+    color: white;
+    width: 700px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.support {
+    padding: 15px 15px;
+    width: 150px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+.support:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(51, 156, 255);
+}
+
+.doge-hero {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: -10px 15px 20px rgba(0, 0, 0, 0.3);
+    border: 10px solid white;
+}
+
+
+/* Doge merch */
+.heading-merch {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #1f2937;
+    text-decoration: underline;
+}
+.merch {
+    display: flex;
+    justify-content: space-around;
+}
+.merch-card {
+    display: flex;
+    align-items: center;
+}
+.content-merch {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.content-merch:hover {
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.3);
+}
+.merch-img {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.merch-text {
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* Qoutes */
+.quote {
+    margin-top: 100px;
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+}
+.auother {
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* CTA */
+.cta-container {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 300px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin: 90px;
+}
+.cta-heading {
+    font-weight: 500;
+    font-size: 40px;
+}
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.cta-button:hover {
+    background-color: white;
+    color: rgb(0, 132, 255);
+}
+
+.discord {
+    color: white;
+}
+
+
+
+/*Footer*/
+
+.footer-container {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.profile-link {
+    color: white;
+}
